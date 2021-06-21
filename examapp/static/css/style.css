@@ -1,0 +1,31 @@
+.one_post {
+    border: solid black 2px;
+    margin: 2px;
+    padding: 15px;
+}
+h5 {
+    margin-left: 135px;
+    margin-top: 10px;
+}
+form {
+    margin: 10px;
+    padding: 10px;
+}
+.submit {
+    margin-top: 10px;
+}
+.container {
+    padding-top: 15px;
+}
+.btn btn-danger {
+    margin-left: 15px;
+}
+.btn-primary {
+    padding: 5px;
+    border: solid black 1px;
+    margin-left: 10px;
+}
+.post {
+    font-size: 150%;
+    font-style: italic;
+}

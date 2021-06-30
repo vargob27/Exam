@@ -52,8 +52,8 @@ class UserManager(models.Manager):
         errors = {}
         if len(post_data['first_name']) == 0:
             errors['first_name'] = "Please enter a first name!"
-        if len(post_data['first_name']) == 0:
-            errors['first_name'] = "Please enter a last name!"
+        if len(post_data['last_name']) == 0:
+            errors['last_name'] = "Please enter a last name!"
         if len(post_data['email']) == 0:
             errors['email'] = "Enter email"
         elif not EMAIL_REGEX.match(post_data['email']):
